@@ -27,4 +27,5 @@ ENV EMAIL_PORT=587
 
 
 EXPOSE ${PORT}
+EXPOSE ${EMAIL_PORT}
 CMD [ "node", "." ]
