@@ -23,7 +23,8 @@ RUN npm run build
 
 # Bind to all network interfaces so that it can be mapped to the host OS
 ENV HOST=0.0.0.0 PORT=8080
-ENV HOST=0.0.0.0 PORT=587
+ENV EMAIL_PORT=587
+
 
 EXPOSE ${PORT}
 CMD [ "node", "." ]
